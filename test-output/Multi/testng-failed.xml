@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Multi]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2_firefox(failed)">
+    <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="TestNG.example11_MultiBrowserTesting">
+        <methods>
+          <include name="OpenApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.example11_MultiBrowserTesting -->
+    </classes>
+  </test> <!-- Test2_firefox(failed) -->
+</suite> <!-- Failed suite [Multi] -->
